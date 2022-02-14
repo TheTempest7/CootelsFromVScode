@@ -7,14 +7,14 @@ if(animItems.length>0){
             const animItem=animItems[index],
             animItemHeight=animItem.offsetHeight,
             animItemOffset=offset(animItem).top,
-            animStart=4;
+            animStart=8;
             
 
             let animItemPoint=window.innerHeight-animItemHeight/animStart;
             if(animItemHeight>window.innerHeight){
                 animItemPoint=window.innerHeight-window.innerHeight/animStart;
                         }
-            if((pageYOffset>animItemOffset-animItemPoint)&&pageYOffset<(animItemOffset+animItemHeight)){
+            if((scrollY >animItemOffset-animItemPoint)&&scrollY<(animItemOffset+animItemHeight)){
             animItem.classList.add('activated');
             }
             else{

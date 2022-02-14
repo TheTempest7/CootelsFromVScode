@@ -210,7 +210,7 @@
   color: #192252;
   text-align: left;
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
 }
 
@@ -223,7 +223,7 @@
   margin-bottom: 32px;
   margin-right: 105px;
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
 }
 
@@ -247,7 +247,7 @@
 
 .spRight__img-conainer {
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
 }
 
@@ -365,7 +365,7 @@
 
 .cooLft__body {
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
 }
 
@@ -394,7 +394,7 @@
   flex-direction: column;
   position: relative;
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
 }
 
@@ -539,7 +539,7 @@
   display: flex;
   padding: 0px 15px;
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
 }
 
@@ -633,7 +633,7 @@
 .organic__body {
   display: flex;
   padding: 0px 15px;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
   transition: all 0.8s ease 0s;
 }
@@ -744,7 +744,7 @@
 
 .rooms__upside {
   padding: 0 15px;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
   transition: all 0.8s ease 0s;
 }
@@ -803,7 +803,7 @@
 
 .rooms__downside {
   margin-top: 90px;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
   transition: all 0.8s ease 0s;
 }
@@ -923,7 +923,7 @@
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
   transition: all 0.8s ease 0s;
 }
@@ -1116,7 +1116,7 @@
 /*--------------------------------slider---------------------*/
 .slider {
   margin-top: 160px;
-  transform: translate(0px, -120%);
+  transform: translate(-120%, 0px);
   opacity: 0;
   transition: all 0.8s ease 0s;
 }

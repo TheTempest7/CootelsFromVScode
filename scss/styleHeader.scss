@@ -194,7 +194,7 @@
     color: #192252;
     text-align: left;
     transition: all 0.8s ease 0s;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
 }
 
@@ -207,7 +207,7 @@
     margin-bottom: 32px;
     margin-right: 105px;
     transition: all 0.8s ease 0s;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
 }
 .discription {
@@ -227,7 +227,7 @@ color: #848FAC;
 }
 .spRight__img-conainer
 {   transition: all 0.8s ease 0s;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
 }
 .spRight__img-conainer.activated
@@ -349,7 +349,7 @@ color: #848FAC;
 
 .cooLft__body {
     transition: all 0.8s ease 0s;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
 }
 
@@ -376,7 +376,7 @@ color: #848FAC;
     flex-direction: column;
     position: relative;
     transition: all 0.8s ease 0s;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
 
 }
@@ -534,7 +534,7 @@ color: #192252;
     display: flex;
     padding: 0px 15px;
     transition: all 0.8s ease 0s;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
 }
 .activities__left {
@@ -631,7 +631,7 @@ color: #192252;
 .organic__body {
     display: flex;
     padding: 0px 15px;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
@@ -740,7 +740,7 @@ color: #192252;
 }
 .rooms__upside {
     padding: 0 15px;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
@@ -801,7 +801,7 @@ color: #192252;
 }
 .rooms__downside {
     margin-top: 90px;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
@@ -917,7 +917,7 @@ margin-right: 12px;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
@@ -1113,7 +1113,7 @@ color: #424F7B;
 
 .slider {
     margin-top: 160px;
-    transform: translate(0px,-120%);
+    transform: translate(-120%,0px);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
