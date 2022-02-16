@@ -18,6 +18,7 @@ function init(){
 
 }
 
+
 window.addEventListener('resize',init);
 
 sliderLine.addEventListener('click',function(e){
