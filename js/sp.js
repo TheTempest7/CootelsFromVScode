@@ -12,6 +12,8 @@ const myFunc = function(event) {
             let parent=event.target.parentNode;
             parent.classList.toggle('spoiler'); 
             console.log(parent);
+            console.log(12);
+            
            
      
                 break;
@@ -20,7 +22,7 @@ const myFunc = function(event) {
     }
     switch(event.target.className){
         case 'lsRight__filling-daughter _icon-arrowDown':
-            console.log(stepfayher);
+          
             let stepfayher=event.target.parentNode;
             stepfayher.classList.toggle('spoiler'); 
             console.log(stepfayher);
