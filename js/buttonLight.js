@@ -42,7 +42,6 @@ function addElement(e){
 
 /*---------------------buttonAddanimItem-------------------*/
 const buttonsToAnim= document.body.querySelectorAll('.btn');
-console.log(buttonsToAnim);
 
 for(let indx=0;indx< buttonsToAnim.length; indx++){
     const btnItem=buttonsToAnim[indx];

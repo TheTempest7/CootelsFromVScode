@@ -4,35 +4,31 @@ listElements = document.querySelectorAll(".lsRight__item-body"); // выбира
 
 const myFunc = function(event) {
     switch(event.target.className){
-        case 'lsRight__filling-daughter _icon-arrowDown':
-            let stepfayher=event.target.parentNode;
-            stepfayher.classList.toggle('spoiler'); 
-            console.log(stepfayher);
+      
         case 'lsRight__caption':
             let parent=event.target.parentNode;
             parent.classList.toggle('spoiler'); 
-            console.log(parent);
-            console.log(12);
             
-           
-     
-                break;
-            
+            break;
+      
+              
                
     }
-    switch(event.target.className){
-        case 'lsRight__filling-daughter _icon-arrowDown':
-          
-            let stepfayher=event.target.parentNode;
-            stepfayher.classList.toggle('spoiler'); 
-            console.log(stepfayher);
-            break;
-    }
+    
+    
 };
 
+let df=document.querySelectorAll('.lsRight__filling');
 
+function Tick(e){
+let allFather=e.target.parentNode.parentNode;
 
-
+allFather.classList.toggle('spoiler'); 
+}
+for (var i = 0; i < df.length; ++i) {
+    var item = df[i];
+    item.addEventListener("click",Tick)
+  }
 
 father.addEventListener("click", myFunc); 
 

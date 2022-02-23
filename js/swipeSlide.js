@@ -1,5 +1,5 @@
 
-console.log(sliderLine);
+
 sliderLine.addEventListener('touchstart',touchStart);
 sliderLine.addEventListener('touchmove',touchMove);
 
@@ -23,22 +23,22 @@ let fourDot=document.querySelector('.four');
 
 
 
- function touchStart(e)
- {
-console.log(e);
+function touchStart(e)
+    {
+
 const firstTouch=e.touches[0];
-console.log(firstTouch);
+
 x1=firstTouch.clientX;
 y1=firstTouch.clientY;
 
-}
+    }
 
 
 
- 
+
         if(counter==1){
             let secDot=document.querySelector('.two');
-            console.log(secDot);
+            
         }
     
 
@@ -58,13 +58,13 @@ if(Math.abs(xDiff)>Math.abs(yDiff)){
         if(counter<=0){
             counter=0;
             sliderLine.style.transform = 'translate(-' + (counter)* width + 'px)';
-            console.log(counter);
+        
             
         }
         else{   --counter;
             sliderLine.style.transform = 'translate(-' + (counter)* width + 'px)';
-            console.log('right');
-            console.log(counter);
+          
+         
             switch(counter){
                 case 0: frstDot.classList.add('slidAct');
                 secDot.classList.remove('slidAct');
@@ -89,8 +89,7 @@ if(Math.abs(xDiff)>Math.abs(yDiff)){
         else{
             ++counter;
             sliderLine.style.transform = 'translate(-' + (counter)* width + 'px)';
-            console.log('left');
-            console.log(counter);
+            
             switch(counter){
                 case 0: frstDot.classList.add('slidAct');
                 fourDot.classList.remove('slidAct');
@@ -112,9 +111,9 @@ if(Math.abs(xDiff)>Math.abs(yDiff)){
 
 else {
     if(yDiff>0){
-        console.log('down');
+        
     }
-    else {console.log('up');}
+    else {}
 }
 
     
@@ -131,8 +130,7 @@ function slideItSelf(){
     if(counter===3){
         --counter;
             sliderLine.style.transform = 'translate(-' + (counter)* width + 'px)';
-            console.log('right');
-            console.log(counter);
+           
             switch(counter){
                 case 0: frstDot.classList.add('slidAct');
                 secDot.classList.remove('slidAct');
@@ -145,11 +143,10 @@ function slideItSelf(){
                 break;}
     }
     else{
-        console.log(width);
+       
         ++counter;
         sliderLine.style.transform = 'translate(-' + (counter)* width + 'px)';
-        console.log(width);
-        console.log(counter);
+      
         
         switch(counter){
             case 0: frstDot.classList.add('slidAct');

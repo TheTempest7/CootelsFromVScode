@@ -1,5 +1,4 @@
 const animItems=document.querySelectorAll('.animItem');
-console.log(animItems);
 if(animItems.length>0){
     window.addEventListener('scroll',animOnScroll);
     function animOnScroll(){
